@@ -15,5 +15,23 @@ public class Main{
         System.out.println(x);
         str = sign2.getlines();
         System.out.println(str);
+
+        Sign sign3 = new Sign("ABCDEF", 6);
+        x = sign3.numberOfLines();
+        System.out.println(x);
+        str = sign3.getlines();
+        System.out.println(str);
+
+        Sign sign4 = new Sign("",4);
+        x = sign4.numberOfLines();
+        System.out.println(x);
+        str = sign4.getlines();
+        System.out.println(str);
+
+        Sign sign5 = new Sign("AB_CD_EF", 2);
+        x = sign5.numberOfLines();
+        System.out.println(x);
+        str = sign5.getlines();
+        System.out.println(str);
     }
 }
